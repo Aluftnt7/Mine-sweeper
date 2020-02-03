@@ -1,0 +1,85 @@
+body {
+    background-color: pink;
+}
+
+.board {
+    background-color: grey;
+    margin: 0, auto;
+    color: whitesmoke;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+}
+
+.mine {
+    color: black;
+}
+
+.cell {
+    /* display: ruby-text; */
+    border-color: black;
+    border-width: 10px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cell:hover {
+    background-color: palevioletred;
+}
+
+.hide {
+    background-color: white;
+    box-shadow: -3px -1px 9px -1px rgba(173, 173, 173, 0.58)
+}
+
+.smiley-button {
+    width: 30px;
+    height: 30px;
+    width: fit-content;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons {
+    margin: 0 auto;
+    color: grey;
+    border-style: groove;
+    border-radius: 20px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.mark {
+    background-color: red;
+}
+
+.timer {
+    border: black;
+    border-style: solid;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.smiley-button-container {
+    margin: 0 auto;
+    width: fit-content;
+    padding: 15px;
+}
+
+.buttons-container {
+    width: fit-content;
+    margin: 10px auto;
+}
